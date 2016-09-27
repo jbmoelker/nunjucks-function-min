@@ -1,0 +1,33 @@
+{
+  "name": "nunjucks-function-min",
+  "version": "1.0.0",
+  "description": "Get lowest value of a sequence of values.",
+  "license": "MIT",
+  "homepage": "https://github.com/jbmoelker/nunjucks-function-min#readme",
+  "repository": "nunjucks-function-min",
+  "author": "Jasper Moelker <jasper@voorhoede.nl> (https://voorhoede.nl/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | faucet"
+  },
+  "keywords": [
+    "nunjucks",
+    "function",
+    "template",
+    "min",
+    "minimum",
+    "lowest",
+    "twig"
+  ],
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "nunjucks": "2.5.2",
+    "tape": "4.6.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "files": [
+    "index.js"
+  ]
+}
